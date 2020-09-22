@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/iframe-demo-integration/static/css/main.5f361e03.chunk.css",
-    "main.js": "/iframe-demo-integration/static/js/main.9d05a217.chunk.js",
-    "main.js.map": "/iframe-demo-integration/static/js/main.9d05a217.chunk.js.map",
+    "main.js": "/iframe-demo-integration/static/js/main.3998ae37.chunk.js",
+    "main.js.map": "/iframe-demo-integration/static/js/main.3998ae37.chunk.js.map",
     "runtime-main.js": "/iframe-demo-integration/static/js/runtime-main.c2266c75.js",
     "runtime-main.js.map": "/iframe-demo-integration/static/js/runtime-main.c2266c75.js.map",
     "static/js/2.1bceacfa.chunk.js": "/iframe-demo-integration/static/js/2.1bceacfa.chunk.js",
     "static/js/2.1bceacfa.chunk.js.map": "/iframe-demo-integration/static/js/2.1bceacfa.chunk.js.map",
     "index.html": "/iframe-demo-integration/index.html",
-    "precache-manifest.35bd1ed13c0c76e18fb41a74067da9ce.js": "/iframe-demo-integration/precache-manifest.35bd1ed13c0c76e18fb41a74067da9ce.js",
+    "precache-manifest.01ea1908831119b273c89396beac65ca.js": "/iframe-demo-integration/precache-manifest.01ea1908831119b273c89396beac65ca.js",
     "service-worker.js": "/iframe-demo-integration/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/iframe-demo-integration/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.1bceacfa.chunk.js.LICENSE.txt": "/iframe-demo-integration/static/js/2.1bceacfa.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.c2266c75.js",
     "static/js/2.1bceacfa.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.9d05a217.chunk.js"
+    "static/js/main.3998ae37.chunk.js"
   ]
 }
