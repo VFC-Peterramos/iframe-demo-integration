@@ -17,10 +17,12 @@ function App() {
   };
 
   const handleClose = () => {
-    window.parent.postMessage(
-      `close`,
-      "https://vfc-peterramos.github.io/iframe-integration-host/"
-    );
+    let url =
+      window.location != window.parent.location
+        ? document.referrer
+        : document.location.href;
+    console.log("url is ===", url);
+    window.parent.postMessage(`close`, url);
   };
 
   return (
