@@ -12,18 +12,21 @@ function App() {
     // console.log("window is ===", window); // Uncomment to illustrate how window.parent is blocked
     window.parent.postMessage(
       JSON.parse(`{ "key": "value", "other": 1, "another": false }`),
-      "http://localhost:8080"
+      "      https://vfc-peterramos.github.io/iframe-integration-host/"
     );
   };
 
   const handleClose = () => {
-    window.parent.postMessage(`close`, "http://localhost:8080");
+    window.parent.postMessage(
+      `close`,
+      "https://vfc-peterramos.github.io/iframe-integration-host/"
+    );
   };
 
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hi I am the embedded App. I am running on port 3000</h1>
+        <h1>Hi I am the embedded App.</h1>
         <button onClick={() => handleClick()}>Click me!</button>
         <button onClick={() => handleClose()}>Close Me!</button>
       </header>
