@@ -12,7 +12,7 @@ function App() {
     // console.log("window is ===", window); // Uncomment to illustrate how window.parent is blocked
     window.parent.postMessage(
       JSON.parse(`{ "key": "value", "other": 1, "another": false }`),
-      "      https://vfc-peterramos.github.io/iframe-integration-host/"
+      "https://vfc-peterramos.github.io/iframe-integration-host/"
     );
   };
 
