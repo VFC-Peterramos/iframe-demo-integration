@@ -10,9 +10,12 @@ function App() {
 
   const handleClick = () => {
     // console.log("window is ===", window); // Uncomment to illustrate how window.parent is blocked
+    let url =
+      window.location != window.parent.location
+        ? document.referrer
+        : document.location.href;
     window.parent.postMessage(
-      JSON.parse(`{ "key": "value", "other": 1, "another": false }`),
-      "https://vfc-peterramos.github.io/iframe-integration-host/"
+      JSON.parse(`{ "key": "value", "other": 1, "another": false }`, url)
     );
   };
 
@@ -21,7 +24,7 @@ function App() {
       window.location != window.parent.location
         ? document.referrer
         : document.location.href;
-    console.log("url is ===", url);
+
     window.parent.postMessage(`close`, url);
   };
 
